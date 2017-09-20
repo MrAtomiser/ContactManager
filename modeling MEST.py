@@ -3,17 +3,19 @@
 # and teach(decrease happiness). school has eits and fellows
 
 class School:
+	pass
 
 class Eit:
 	def __init__(self, names, nationalities):
 		self.names = names
-		self.nationalities = nationality
+		self.nationalities = nationalities
 
 	def fun_facts(self):
-		self.fun_facts = fun_facts
+		return self.fun_facts = fun_facts
 
-class Fellow:
+class Fellow(Eit):
 	def __init__(self, name, nationality):
+		super()__init__(self, )
 		self.name = name
 		self.nationality = nationality
 
