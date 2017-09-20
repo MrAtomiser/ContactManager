@@ -1,5 +1,7 @@
 class Mest:
 	number_of_fellows = 0
-	def __init__(self, name):
+
+	def __init__(self, name, country):
         self.name = name
-        Cat.cats_created += 1
+        self.country = coountry
+        Mest.fellows_added += 1
